@@ -1,0 +1,50 @@
+
+.container {
+    width: 100%;
+    height: auto;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#name {
+    background-color: teal;
+height: 40px;
+width: 200px;
+top: 25px;
+left: 140px;
+position: absolute;
+
+}
+
+#name h1 {
+    top: 0;
+    height: 20px;
+}
+
+#header {
+    height: 50px;
+    background-color: orange;
+}
+
+#background {
+    height: 400px;
+    background-color: darkgray;
+    position: relative;
+    z-index: 20;
+}
+
+#aboutme {
+    height: 300px;
+    width: 50%;
+    background-color: red;
+    position: relative;
+    z-index: 20;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    height: 50px;
+    background-color: green;
+    
+}
